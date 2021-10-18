@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biodata"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="161dp"
+        android:layout_height="224dp"
+        android:src="@drawable/me"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM: A11.2020.13028"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama: Erlangga Guntur Prasetyo"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hobby: Main game dan futsal"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Deskripsi Singkat:"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Masih belajar terus mengenai Pemrograman Perangkat Bergerak dan belajar memahami Bahasa pemrograman lainnya."
+        android:textSize="20dp"
+        android:layout_margin="20dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/tbltelpon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telpon"
+            android:layout_margin="10dp"
+            android:onClick="telepon"/>
+        <Button
+            android:id="@+id/tblemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_margin="10dp"
+            android:onClick="email"/>
+        <Button
+            android:id="@+id/alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:layout_margin="10dp"
+            android:onClick="alamat"/>
+    </LinearLayout>
+
+
+</LinearLayout>
